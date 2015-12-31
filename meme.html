@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+
+<head>
+    
+   <title>Meme Engine</title>
+
+  
+  
+   <link rel="stylesheet" type="text/css" href="css/meme.css">
+  
+
+ <link  href="css/bootstrap.min.css">
+ <script src="js/jquery-2.1.4.min.js"></script>
+ 
+
+
+</head>
+
+<body>
+  
+
+   <h1 class="outer">Instant-Meme</h1>  
+ 
+      <a id='refresh' href="">Make Another Meme!</a>  <!-- href="" reloads the current page -->
+    <div class="outer">
+ 
+    </div>
+    
+    <br>
+   
+     <div id="box1">
+          
+		
+	       <input id="ifile" type="file" style="display:none" />
+             <button  class="btn btn-link"  onclick="$('#ifile').click();"> Upload</button>
+
+             <br>
+
+    </div>
+
+   <div id="box2" style="display: none;">
+    
+        <input id="topline" placeholder="TOP LINE">
+        <br><br>
+        <input id="bottomline" placeholder="BOTTOM LINE">
+        <br><br>
+
+        <canvas id="c" width="0" height="0"></canvas>
+        <br><br>
+        <a href="#" class="buttonLink" id="downloadLink" download>Download </a> <!--download attribute http://www.w3schools.com/tags/att_a_download.asp -->
+ 
+
+        <br><br>
+       
+    </div>
+    <br><br>
+    
+    <br>
+    
+
+<script type="text/javascript" src="js/meme.js">
+</script>
+
+</body>
+
+</html>
