@@ -1,0 +1,73 @@
+@import "http://fonts.googleapis.com/css?family=Rancho&effect=fire-animation";
+
+
+#refresh{
+  font-family: Rancho;
+  font-size: 25px;
+  float:left;
+  background-color: white;
+}
+
+
+h1 {
+
+  font-family: Rancho;
+  font-size: 60px;
+  margin: 40px 0;
+  text-align: center;
+  color: white;
+}
+  
+
+
+
+     html {
+    height: 100%;
+    background: red; /* For browsers that do not support gradients */    
+
+  
+
+     background: #780206; /* fallback for old browsers */
+     background: -webkit-linear-gradient(to left, #780206 , #061161); /* Chrome 10-25, Safari 5.1-6 */
+     background: linear-gradient(to left, #780206 , #061161); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+       }
+
+
+
+        body {
+            
+            max-width: 60em;
+            margin: 12px  auto;
+            
+            border-radius: 2em;
+            padding: 1em;
+            text-align: center;
+        }
+        input,button {
+            font-size: 1.25em;
+            padding: 0.5em;
+            display: inline-block;
+        }
+        input[type="file"] {   /*element with specified attribute can be selected like this */
+            border: 0.125em solid dodgerBlue;
+            border-radius: 0.5em;
+            
+	    
+        
+        .outer{
+            margin: 5;
+          
+	    padding:2.5ex;
+        }
+
+	
+
+        #downloadLink {
+            display: inline-block;
+            padding: 0.5em 1em;
+            background-color: navy;
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+        }
